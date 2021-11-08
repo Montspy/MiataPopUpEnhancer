@@ -9,3 +9,5 @@ Features targeted:
 - [ ] Drag'n'drop programming (via USB Mass storage)
 - [ ] TBD: Sleepy eyes
 - [ ] TBD: Control and settings via app (BLE)
+
+![Alt Text](https://c.tenor.com/qEsCqyiyLWwAAAAd/ok.gif)
