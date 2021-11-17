@@ -10694,8 +10694,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <smd name="B6" x="0.75" y="3.3628" dx="0.3048" dy="1.143" layer="1"/>
 <smd name="A8" x="1.25" y="3.3628" dx="0.3048" dy="1.143" layer="1"/>
 <smd name="B5" x="1.75" y="3.3628" dx="0.3048" dy="1.143" layer="1"/>
-<pad name="13" x="-2.8956" y="2.286" drill="0.6604" diameter="0.6604"/>
-<pad name="14" x="2.8956" y="2.286" drill="0.6604" diameter="0.6604"/>
 <smd name="15" x="-5.11" y="2.7878" dx="2.159" dy="2.0066" layer="1"/>
 <smd name="16" x="5.11" y="2.7878" dx="2.159" dy="2.0066" layer="1"/>
 <smd name="17" x="-5.11" y="-1.1422" dx="2.159" dy="2.0066" layer="1"/>
@@ -10715,6 +10713,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <text x="-6.3246" y="2.7178" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="2.7178" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="2.7178" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<hole x="-2.8956" y="2.286" drill="0.6604"/>
+<hole x="2.8956" y="2.286" drill="0.6604"/>
 </package>
 </packages>
 <symbols>
@@ -12489,7 +12489,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
-<part name="S23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C21" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="SUPPLY45" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -12591,6 +12591,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-5.08" y1="-160.02" x2="-5.08" y2="-121.92" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-5.08" y1="-121.92" x2="-55.88" y2="-121.92" width="0.1524" layer="94" style="shortdash"/>
 <text x="22.86" y="-162.56" size="1.778" layer="94">Optional</text>
+<text x="66.04" y="2.54" size="3.81" layer="94">Stuffing options</text>
+<text x="66.04" y="0" size="1.778" layer="94" align="top-left">Y1 crystal optionnal</text>
+<wire x1="60.96" y1="10.16" x2="60.96" y2="-5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="60.96" y1="-5.08" x2="111.76" y2="-5.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="111.76" y1="-5.08" x2="111.76" y2="10.16" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="111.76" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="-38.1" y="-71.12" smashed="yes" rot="MR0">
@@ -12983,8 +12989,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="+3V8" gate="G$1" x="0" y="58.42" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Y1" gate="G$1" x="-5.08" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="-6.096" y="35.56" size="1.778" layer="95" rot="R90"/>
+<instance part="Y1" gate="G$1" x="-5.08" y="33.02" smashed="yes" rot="MR270">
+<attribute name="NAME" x="-6.096" y="30.48" size="1.778" layer="95" rot="MR270"/>
 </instance>
 <instance part="R42" gate="G$1" x="78.74" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.2414" y="41.91" size="1.778" layer="95" rot="R90"/>
@@ -13067,7 +13073,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="39.37" y="-194.0814" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="-198.882" size="1.778" layer="96"/>
 </instance>
-<instance part="S23" gate="G$1" x="86.36" y="-175.26" smashed="yes" rot="R90">
+<instance part="R23" gate="G$1" x="86.36" y="-175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.8614" y="-179.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.662" y="-179.07" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -13622,7 +13628,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="50.8" y1="22.86" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S23" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="-170.18" x2="86.36" y2="-167.64" width="0.1524" layer="91"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 </segment>
@@ -13742,7 +13748,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="PA22"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="VDDCORE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDCORE"/>
 <wire x1="238.76" y1="40.64" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
@@ -13839,12 +13845,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="D4" gate="G$1" pin="A1"/>
 <wire x1="213.36" y1="147.32" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A1"/>
+<wire x1="208.28" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="CC1" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="J3" gate="A" pin="CC1"/>
@@ -13852,7 +13858,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="10.16" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CC2" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="J3" gate="A" pin="CC2"/>
@@ -14126,22 +14132,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="180.34" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="XL2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="P0.26/XL2"/>
 <wire x1="2.54" y1="38.1" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="38.1" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="35.56" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="XL1" class="0">
 <segment>
-<wire x1="-5.08" y1="30.48" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="0" y1="27.94" x2="0" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="P0.27/XL1"/>
 <wire x1="0" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="27.94" x2="-5.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BLE_CONNECTED" class="0">
@@ -14329,7 +14335,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="Q21" gate="G$0" pin="C"/>
 <wire x1="86.36" y1="-187.96" x2="86.36" y2="-185.42" width="0.1524" layer="91"/>
 <label x="111.76" y="-182.88" size="1.778" layer="95" rot="MR0"/>
-<pinref part="S23" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="-185.42" x2="86.36" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-182.88" x2="111.76" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-182.88" x2="86.36" y2="-180.34" width="0.1524" layer="91"/>
