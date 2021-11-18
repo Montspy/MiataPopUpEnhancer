@@ -4902,10 +4902,6 @@ Created by Upverter.com</description>
 <wire x1="-0.65" y1="1.45" x2="0.65" y2="1.45" width="0.15" layer="51"/>
 <wire x1="0.65" y1="1.45" x2="0.65" y2="-1.45" width="0.15" layer="51"/>
 <wire x1="0.65" y1="-1.45" x2="-0.65" y2="-1.45" width="0.15" layer="51"/>
-<wire x1="-1.856" y1="-1.7" x2="-1.856" y2="1.7" width="0.1" layer="4"/>
-<wire x1="-1.856" y1="1.7" x2="1.856" y2="1.7" width="0.1" layer="4"/>
-<wire x1="1.856" y1="1.7" x2="1.856" y2="-1.7" width="0.1" layer="4"/>
-<wire x1="1.856" y1="-1.7" x2="-1.856" y2="-1.7" width="0.1" layer="4"/>
 <wire x1="0.128" y1="1.45" x2="0.65" y2="1.45" width="0.15" layer="21"/>
 <wire x1="0.65" y1="-1.45" x2="0.65" y2="-0.668" width="0.15" layer="21"/>
 <wire x1="0.65" y1="0.668" x2="0.65" y2="1.45" width="0.15" layer="21"/>
@@ -4940,10 +4936,6 @@ Created by Upverter.com</description>
 <wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.15" layer="51"/>
 <wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.15" layer="51"/>
 <wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.15" layer="51"/>
-<wire x1="-1.55" y1="-1.6" x2="-1.55" y2="1.6" width="0.1" layer="4"/>
-<wire x1="-1.55" y1="1.6" x2="1.55" y2="1.6" width="0.1" layer="4"/>
-<wire x1="1.55" y1="1.6" x2="1.55" y2="-1.6" width="0.1" layer="4"/>
-<wire x1="1.55" y1="-1.6" x2="-1.55" y2="-1.6" width="0.1" layer="4"/>
 <wire x1="-0.175" y1="1.5" x2="0.7" y2="1.5" width="0.15" layer="21"/>
 <wire x1="0.7" y1="-1.5" x2="0.7" y2="-0.775" width="0.15" layer="21"/>
 <wire x1="0.7" y1="0.775" x2="0.7" y2="1.5" width="0.15" layer="21"/>
@@ -12352,7 +12344,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Q1" library="Micro Commercial - MMSS8050-L-TP - Copy" deviceset="MICRO_COMMERCIAL_MMSS8050-L-TP" device="MICRO_COMMERCIAL_MMSS8050-L-TP_0_0"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q3" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_2"/>
+<part name="Q3" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_0" value="DIODES_INC_DMP3099L-13DIODES_INC_DMP3099L-13_0_0"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="Q2" library="Micro Commercial - MMSS8050-L-TP - Copy" deviceset="MICRO_COMMERCIAL_MMSS8050-L-TP" device="MICRO_COMMERCIAL_MMSS8050-L-TP_0_0"/>
@@ -12365,7 +12357,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="Q13" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_2"/>
+<part name="Q13" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_0" value="DIODES_INC_DMP3099L-13DIODES_INC_DMP3099L-13_0_0"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="Q12" library="Micro Commercial - MMSS8050-L-TP - Copy" deviceset="MICRO_COMMERCIAL_MMSS8050-L-TP" device="MICRO_COMMERCIAL_MMSS8050-L-TP_0_0"/>
@@ -12434,7 +12426,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Q23" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_2"/>
+<part name="Q23" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_0" value="DIODES_INC_DMP3099L-13DIODES_INC_DMP3099L-13_0_0"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="Q22" library="Micro Commercial - MMSS8050-L-TP - Copy" deviceset="MICRO_COMMERCIAL_MMSS8050-L-TP" device="MICRO_COMMERCIAL_MMSS8050-L-TP_0_0"/>
@@ -12442,7 +12434,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2k"/>
-<part name="Q33" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_2"/>
+<part name="Q33" library="Diodes Inc. - DMP3099L-13" deviceset="DIODES_INC_DMP3099L-13" device="DIODES_INC_DMP3099L-13_0_0" value="DIODES_INC_DMP3099L-13DIODES_INC_DMP3099L-13_0_0"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="Q32" library="Micro Commercial - MMSS8050-L-TP - Copy" deviceset="MICRO_COMMERCIAL_MMSS8050-L-TP" device="MICRO_COMMERCIAL_MMSS8050-L-TP_0_0"/>
