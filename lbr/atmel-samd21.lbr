@@ -171,39 +171,39 @@
 <wire x1="12.7" y1="25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-25.4" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
-<pin name="PA00" x="-17.78" y="22.86" visible="pin" length="middle"/>
-<pin name="PA01" x="-17.78" y="20.32" visible="pin" length="middle"/>
-<pin name="PA03" x="-17.78" y="15.24" visible="pin" length="middle"/>
-<pin name="PA04" x="-17.78" y="12.7" visible="pin" length="middle"/>
-<pin name="PA05" x="-17.78" y="10.16" visible="pin" length="middle"/>
-<pin name="PA06" x="-17.78" y="7.62" visible="pin" length="middle"/>
-<pin name="PA07" x="-17.78" y="5.08" visible="pin" length="middle"/>
-<pin name="VDDANA" x="-17.78" y="0" visible="pin" length="middle"/>
-<pin name="GND@1" x="-17.78" y="-2.54" visible="pin" length="middle"/>
-<pin name="PA08" x="-17.78" y="-5.08" visible="pin" length="middle"/>
-<pin name="PA09" x="-17.78" y="-7.62" visible="pin" length="middle"/>
-<pin name="PA10" x="-17.78" y="-10.16" visible="pin" length="middle"/>
-<pin name="PA11" x="-17.78" y="-12.7" visible="pin" length="middle"/>
+<pin name="PA00" x="-17.78" y="22.86" length="middle"/>
+<pin name="PA01" x="-17.78" y="20.32" length="middle"/>
+<pin name="PA03" x="-17.78" y="15.24" length="middle"/>
+<pin name="PA04" x="-17.78" y="12.7" length="middle"/>
+<pin name="PA05" x="-17.78" y="10.16" length="middle"/>
+<pin name="PA06" x="-17.78" y="7.62" length="middle"/>
+<pin name="PA07" x="-17.78" y="5.08" length="middle"/>
+<pin name="VDDANA" x="-17.78" y="0" length="middle"/>
+<pin name="GND@1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="PA08" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PA09" x="-17.78" y="-7.62" length="middle"/>
+<pin name="PA10" x="-17.78" y="-10.16" length="middle"/>
+<pin name="PA11" x="-17.78" y="-12.7" length="middle"/>
 <pin name="PA14" x="-17.78" y="-15.24" length="middle"/>
 <pin name="PA15" x="-17.78" y="-17.78" length="middle"/>
-<pin name="PA16" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="PA17" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="PA18" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="PA19" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="PA22" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="PA23" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="PA24" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="PA25" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="PA27" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="RESETN" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="PA28" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="GND@2" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="VDDCORE" x="17.78" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="VDDIN" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="PA30" x="17.78" y="20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="PA02" x="-17.78" y="17.78" visible="pin" length="middle"/>
-<pin name="PA31" x="17.78" y="22.86" visible="pin" length="middle" rot="R180"/>
-<pin name="GND@3" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PA16" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA17" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA18" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA19" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA22" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA23" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA24" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA25" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="PA27" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="RESETN" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PA28" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@2" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="VDDCORE" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="VDDIN" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="PA30" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="PA02" x="-17.78" y="17.78" length="middle"/>
+<pin name="PA31" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="GND@3" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <text x="-12.7" y="27.94" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="25.4" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>

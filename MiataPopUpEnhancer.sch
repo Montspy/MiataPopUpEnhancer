@@ -10456,45 +10456,45 @@ Source: Fairchild .. BAT54.pdf</description>
 <wire x1="12.7" y1="25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-25.4" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
-<pin name="PA00" x="-17.78" y="22.86" visible="pin" length="middle"/>
-<pin name="PA01" x="-17.78" y="20.32" visible="pin" length="middle"/>
-<pin name="PA03" x="-17.78" y="15.24" visible="pin" length="middle"/>
-<pin name="PA04" x="-17.78" y="12.7" visible="pin" length="middle"/>
-<pin name="PA05" x="-17.78" y="10.16" visible="pin" length="middle"/>
-<pin name="PA06" x="-17.78" y="7.62" visible="pin" length="middle"/>
-<pin name="PA07" x="-17.78" y="5.08" visible="pin" length="middle"/>
-<pin name="VDDANA" x="-17.78" y="0" visible="pin" length="middle"/>
-<pin name="GND@1" x="-17.78" y="-2.54" visible="pin" length="middle"/>
-<pin name="PA08" x="-17.78" y="-5.08" visible="pin" length="middle"/>
-<pin name="PA09" x="-17.78" y="-7.62" visible="pin" length="middle"/>
-<pin name="PA10" x="-17.78" y="-10.16" visible="pin" length="middle"/>
-<pin name="PA11" x="-17.78" y="-12.7" visible="pin" length="middle"/>
-<pin name="PA14" x="-17.78" y="-15.24" visible="pin" length="middle"/>
-<pin name="PA15" x="-17.78" y="-17.78" visible="pin" length="middle"/>
-<pin name="PA16" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="PA17" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="PA18" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="PA19" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="PA22" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="PA23" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="PA24" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="PA25" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="PA27" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="RESETN" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="PA28" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="GND@2" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="VDDCORE" x="17.78" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="VDDIN" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="PA30" x="17.78" y="20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="PA02" x="-17.78" y="17.78" visible="pin" length="middle"/>
-<pin name="PA31" x="17.78" y="22.86" visible="pin" length="middle" rot="R180"/>
-<pin name="GND@3" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PA00" x="-17.78" y="22.86" length="middle"/>
+<pin name="PA01" x="-17.78" y="20.32" length="middle"/>
+<pin name="PA03" x="-17.78" y="15.24" length="middle"/>
+<pin name="PA04" x="-17.78" y="12.7" length="middle"/>
+<pin name="PA05" x="-17.78" y="10.16" length="middle"/>
+<pin name="PA06" x="-17.78" y="7.62" length="middle"/>
+<pin name="PA07" x="-17.78" y="5.08" length="middle"/>
+<pin name="VDDANA" x="-17.78" y="0" length="middle"/>
+<pin name="GND@1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="PA08" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PA09" x="-17.78" y="-7.62" length="middle"/>
+<pin name="PA10" x="-17.78" y="-10.16" length="middle"/>
+<pin name="PA11" x="-17.78" y="-12.7" length="middle"/>
+<pin name="PA14" x="-17.78" y="-15.24" length="middle"/>
+<pin name="PA15" x="-17.78" y="-17.78" length="middle"/>
+<pin name="PA16" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA17" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA18" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA19" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA22" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA23" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA24" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA25" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="PA27" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="RESETN" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PA28" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND@2" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="VDDCORE" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="VDDIN" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="PA30" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="PA02" x="-17.78" y="17.78" length="middle"/>
+<pin name="PA31" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="GND@3" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <text x="-12.7" y="27.94" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="25.4" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATSAMD21E18A-MUT">
+<deviceset name="ATSAMD21E18A-MUT" prefix="U">
 <description>This is the ATMEL SAMD21E QFN-32. ATSAMD21E18A</description>
 <gates>
 <gate name="G$1" symbol="SAMD21E" x="0" y="0"/>
@@ -10711,24 +10711,25 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 </packages>
 <symbols>
 <symbol name="USB4110-GF-A">
-<pin name="GND_2" x="2.54" y="0" length="middle" direction="pas"/>
-<pin name="VBUS_2" x="2.54" y="-2.54" length="middle" direction="pwr"/>
-<pin name="CC1" x="2.54" y="-5.08" length="middle"/>
-<pin name="DP1" x="2.54" y="-7.62" length="middle"/>
-<pin name="DN1" x="2.54" y="-10.16" length="middle"/>
-<pin name="SBU1" x="2.54" y="-12.7" length="middle"/>
-<pin name="VBUS" x="38.1" y="-12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND" x="38.1" y="-10.16" length="middle" direction="pas" rot="R180"/>
-<pin name="CC2" x="38.1" y="-7.62" length="middle" rot="R180"/>
-<pin name="DP2" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="DN2" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="SBU2" x="38.1" y="0" length="middle" rot="R180"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="33.02" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="33.02" y1="-17.78" x2="33.02" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="33.02" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="15.5956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="14.9606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="GND@2" x="-17.78" y="5.08" length="middle" direction="pas"/>
+<pin name="VBUS_2" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="CC1" x="-17.78" y="0" length="middle"/>
+<pin name="DP1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="DN1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="SBU1" x="-17.78" y="-7.62" length="middle"/>
+<pin name="VBUS" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND@1" x="17.78" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="CC2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="DP2" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="DN2" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SBU2" x="17.78" y="5.08" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<text x="-12.7" y="12.7" size="1.778" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-12.7" y="10.16" size="1.778" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<pin name="SHIELD" x="0" y="-17.78" length="middle" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10745,10 +10746,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <connect gate="A" pin="DN2" pad="B7"/>
 <connect gate="A" pin="DP1" pad="A6"/>
 <connect gate="A" pin="DP2" pad="B6"/>
-<connect gate="A" pin="GND" pad="A12-B1"/>
-<connect gate="A" pin="GND_2" pad="A1-B12"/>
+<connect gate="A" pin="GND@1" pad="A12-B1"/>
+<connect gate="A" pin="GND@2" pad="A1-B12"/>
 <connect gate="A" pin="SBU1" pad="A8"/>
 <connect gate="A" pin="SBU2" pad="B8"/>
+<connect gate="A" pin="SHIELD" pad="15 16 17 18"/>
 <connect gate="A" pin="VBUS" pad="A9-B4"/>
 <connect gate="A" pin="VBUS_2" pad="A4-B9"/>
 </connects>
@@ -12387,7 +12389,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="MCP1703" device="CB" package3d_urn="urn:adsk.eagle:package:16489/2"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="4.7uF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0603K" value="4.7uF"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0603" value="4.7uF"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -12506,6 +12508,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="S31" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="D33" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX84CSMD" device="" package3d_urn="urn:adsk.eagle:package:43403/2" value="3.3V"/>
 <part name="SUPPLY52" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY53" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12780,9 +12783,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY21" gate="GND" x="281.94" y="22.86" smashed="yes">
 <attribute name="VALUE" x="280.035" y="19.685" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="A" x="30.48" y="142.24" smashed="yes">
-<attribute name="NAME" x="40.9956" y="151.3586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="40.3606" y="148.8186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="J3" gate="A" x="53.34" y="137.16" smashed="yes">
+<attribute name="NAME" x="40.64" y="149.86" size="1.778" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="40.64" y="147.32" size="1.778" layer="96" ratio="6" rot="SR0"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="81.28" y="116.84" smashed="yes">
 <attribute name="VALUE" x="79.375" y="113.665" size="1.778" layer="96"/>
@@ -13027,9 +13030,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY43" gate="GND" x="292.1" y="22.86" smashed="yes">
 <attribute name="VALUE" x="290.195" y="19.685" size="1.778" layer="96"/>
 </instance>
-<instance part="R41" gate="G$1" x="170.18" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="173.99" y="13.7414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="173.99" y="18.542" size="1.778" layer="96" rot="R180"/>
+<instance part="R41" gate="G$1" x="172.72" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="176.53" y="34.0614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="176.53" y="38.862" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D7" gate="G$1" x="160.02" y="10.16" smashed="yes">
 <attribute name="NAME" x="163.576" y="5.588" size="1.778" layer="95" rot="R90"/>
@@ -13152,6 +13155,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="SUPPLY52" gate="GND" x="68.58" y="-271.78" smashed="yes">
 <attribute name="VALUE" x="66.675" y="-274.955" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY53" gate="GND" x="50.8" y="116.84" smashed="yes">
+<attribute name="VALUE" x="48.895" y="113.665" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13261,14 +13267,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="281.94" y1="25.4" x2="281.94" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="A" pin="GND"/>
-<wire x1="68.58" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="GND@1"/>
+<wire x1="71.12" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="132.08" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="A" pin="GND_2"/>
-<wire x1="33.02" y1="142.24" x2="17.78" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="GND@2"/>
+<wire x1="35.56" y1="142.24" x2="17.78" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="142.24" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 </segment>
@@ -13445,6 +13451,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="SUPPLY52" gate="GND" pin="GND"/>
 <pinref part="D33" gate="G$1" pin="A"/>
 <wire x1="68.58" y1="-269.24" x2="68.58" y2="-266.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="A" pin="SHIELD"/>
+<pinref part="SUPPLY53" gate="GND" pin="GND"/>
+<wire x1="50.8" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -13648,9 +13659,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="15.24" x2="261.62" y2="15.24" width="0.1524" layer="91"/>
-<label x="261.62" y="15.24" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="PA19"/>
+<wire x1="238.76" y1="7.62" x2="261.62" y2="7.62" width="0.1524" layer="91"/>
+<label x="261.62" y="7.62" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U1" gate="G$1" pin="PA16"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13715,9 +13726,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="86.36" y="-53.34"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="20.32" x2="261.62" y2="20.32" width="0.1524" layer="91"/>
-<label x="261.62" y="20.32" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="PA23"/>
+<pinref part="U1" gate="G$1" pin="PA15"/>
+<wire x1="203.2" y1="7.62" x2="180.34" y2="7.62" width="0.1524" layer="91"/>
+<label x="180.34" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DOWN_REQ" class="0">
@@ -13735,9 +13746,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="86.36" y="-111.76"/>
 </segment>
 <segment>
-<wire x1="261.62" y1="17.78" x2="238.76" y2="17.78" width="0.1524" layer="91"/>
-<label x="261.62" y="17.78" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="PA22"/>
+<pinref part="U1" gate="G$1" pin="PA14"/>
+<wire x1="180.34" y1="10.16" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+<label x="180.34" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDDCORE" class="0">
@@ -13766,7 +13777,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="261.62" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="132.08" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="132.08" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J3" gate="A" pin="DN1"/>
 <label x="22.86" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -13775,7 +13786,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="106.68" y="139.7" size="1.778" layer="95"/>
 <wire x1="119.38" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="TVS3" gate="A" pin="2"/>
-<wire x1="104.14" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="129.54" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 <junction x="104.14" y="139.7"/>
 </segment>
@@ -13788,13 +13799,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="J3" gate="A" pin="DP1"/>
-<wire x1="33.02" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
 <label x="22.86" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="A" pin="DP2"/>
 <label x="106.68" y="137.16" size="1.778" layer="95"/>
-<wire x1="68.58" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="TVS2" gate="A" pin="2"/>
 <wire x1="96.52" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="129.54" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
@@ -13820,7 +13831,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="VBUS" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="VBUS_2"/>
-<wire x1="33.02" y1="139.7" x2="2.54" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="139.7" x2="2.54" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="139.7" x2="2.54" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <pinref part="TVS1" gate="A" pin="2"/>
@@ -13830,7 +13841,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="J3" gate="A" pin="VBUS"/>
-<wire x1="68.58" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="129.54" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
 <label x="71.12" y="127" size="1.778" layer="95"/>
@@ -13847,7 +13858,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="J3" gate="A" pin="CC1"/>
 <wire x1="10.16" y1="132.08" x2="10.16" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CC2" class="0">
@@ -13855,7 +13866,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="J3" gate="A" pin="CC2"/>
 <wire x1="88.9" y1="132.08" x2="88.9" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DASH_IND_12V" class="0">
@@ -13984,9 +13995,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="7.62" x2="261.62" y2="7.62" width="0.1524" layer="91"/>
-<label x="261.62" y="7.62" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="PA16"/>
+<wire x1="238.76" y1="20.32" x2="261.62" y2="20.32" width="0.1524" layer="91"/>
+<label x="261.62" y="20.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U1" gate="G$1" pin="PA23"/>
 </segment>
 </net>
 <net name="UP_OUT_RH" class="0">
@@ -14105,9 +14116,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="DEBUG_LED" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA10"/>
-<wire x1="203.2" y1="15.24" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
-<label x="180.34" y="15.24" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PA05"/>
+<wire x1="203.2" y1="35.56" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
+<label x="180.34" y="35.56" size="1.778" layer="95"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -14268,8 +14279,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="R41" gate="G$1" pin="2"/>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="165.1" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="15.24" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="35.56" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DASH_IND_LH_FILT" class="0">
@@ -14337,9 +14348,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="86.36" y="-185.42"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA14"/>
-<wire x1="180.34" y1="10.16" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
-<label x="180.34" y="10.16" size="1.778" layer="95"/>
+<wire x1="238.76" y1="15.24" x2="261.62" y2="15.24" width="0.1524" layer="91"/>
+<label x="261.62" y="15.24" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U1" gate="G$1" pin="PA19"/>
 </segment>
 </net>
 <net name="DASH_IND_RH" class="0">
@@ -14357,14 +14368,33 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="86.36" y="-243.84"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA15"/>
-<wire x1="203.2" y1="7.62" x2="180.34" y2="7.62" width="0.1524" layer="91"/>
-<label x="180.34" y="7.62" size="1.778" layer="95"/>
+<wire x1="261.62" y1="17.78" x2="238.76" y2="17.78" width="0.1524" layer="91"/>
+<label x="261.62" y="17.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U1" gate="G$1" pin="PA22"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,2.54,149.86,+5V,VBUS,,,,"/>
+<approved hash="102,1,83.82,149.86,+5V,VBUS,,,,"/>
+<approved hash="102,1,213.36,147.32,+5V,VBUS,,,,"/>
+<approved hash="104,1,35.56,139.7,J3,VBUS_2,VBUS,,,"/>
+<approved hash="106,1,48.26,50.8,NC_BLE_FCTRYRST,,,,,"/>
+<approved hash="106,1,48.26,55.88,NC_BLE_SWCLK,,,,,"/>
+<approved hash="106,1,48.26,53.34,NC_BLE_SWDIO/RST,,,,,"/>
+<approved hash="113,1,-45.9571,-53.1139,J1,,,,,"/>
+<approved hash="113,1,305.037,-58.1939,J2,,,,,"/>
+<approved hash="113,1,78.74,-54.9504,S1,,,,,"/>
+<approved hash="113,1,78.74,-113.37,S11,,,,,"/>
+<approved hash="113,1,305.037,-195.354,J22,,,,,"/>
+<approved hash="113,1,99.3817,41.91,D5,,,,,"/>
+<approved hash="113,1,107.002,41.91,D6,,,,,"/>
+<approved hash="113,1,160.342,8.89,D7,,,,,"/>
+<approved hash="113,1,78.74,-187.03,S21,,,,,"/>
+<approved hash="113,1,78.74,-245.45,S31,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
